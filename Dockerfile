@@ -7,6 +7,6 @@ RUN npm install
 
 COPY back-end/ .
 
-EXPOSE 3000
+EXPOSE 8080
 
 CMD ["node", "server.js"]
