@@ -1,4 +1,4 @@
-const sockets = new WebSocket('ws://localhost:8080')
+const sockets = new WebSocket('ws://r8tf18qq1sgb7ey8m3sgfia0.178.105.39.91.sslip.io')
 
 sockets.addEventListener('open', () => {
   console.log('connected')
